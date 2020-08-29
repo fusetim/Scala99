@@ -7,3 +7,7 @@ object problem01 extends ScalaModule {
 object problem02 extends ScalaModule {
     def scalaVersion = "2.13.1"
 }
+
+object problem03 extends ScalaModule {
+    def scalaVersion = "2.13.1"
+}

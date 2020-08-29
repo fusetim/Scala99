@@ -1,0 +1,13 @@
+= S-99/P03 (*) - Find the Kth element of a list.
+
+image::https://img.shields.io/badge/difficulty-easy-brightgreen?style=for-the-badge[Difficulty: Easy]
+
+.Example:
+[caption=""]
+====
+```scala
+scala> nth(2, List(1, 1, 2, 3, 5, 8))
+res0: Int = 2
+```
+====
+
