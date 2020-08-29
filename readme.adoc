@@ -7,7 +7,7 @@ It will follow the problem list of this site http://aperiodic.net/phil/scala/s-9
 
 == Solved challenges
 
-[cols="11*^",options="footer"]
+[cols="11*^.^",options="footer"]
 |===
 | __ | _0 | _1 | _2 | _3 | _4 | _5 | _6 | _7 | _8 | _9
 
