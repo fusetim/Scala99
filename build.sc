@@ -19,3 +19,8 @@ object problem04 extends ScalaModule {
 object problem05 extends ScalaModule {
   def scalaVersion = "2.13.1"
 }
+
+object problem06 extends ScalaModule {
+  def scalaVersion = "2.13.1"
+  def moduleDeps = Seq(problem04)
+}

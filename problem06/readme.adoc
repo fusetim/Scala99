@@ -1,0 +1,13 @@
+= S-99/P06 (*) - Find out whether a list is a palindrome.
+
+image::https://img.shields.io/badge/difficulty-easy-brightgreen?style=for-the-badge[Difficulty: Easy]
+
+.Example:
+[caption=""]
+====
+```scala
+scala> isPalindrome(List(1, 2, 3, 2, 1))
+res0: Boolean = true
+```
+====
+
