@@ -1,6 +1,6 @@
-package fr.fusetim.scala99.problem02
+package fr.fusetim.scala99
 
-object Main extends App {
+object Problem03 extends App {
   // Some testing values:
   assert(nth(1, List(1, 2, 3, 4, 5, 6)) == 2)
   assert(nth(0, List(7, 2, 115, -85, 65, 87)) == 7)

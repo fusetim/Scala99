@@ -1,6 +1,6 @@
-package fr.fusetim.scala99.problem02
+package fr.fusetim.scala99
 
-object Main extends App {
+object Problem02 extends App {
   // Some testing values:
   assert(penultimate(List(1, 2, 3, 4, 5, 6)) == 5)
   assert(penultimate(List(7, 2, 115, -85, 65, 87)) == 65)

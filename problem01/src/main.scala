@@ -1,6 +1,6 @@
-package fr.fusetim.scala99.problem01
+package fr.fusetim.scala99
 
-object Main extends App {
+object Problem01 extends App {
 
   // Some testing values:
   assert(last(List(1, 2, 3, 4, 5, 6)) == 6)
