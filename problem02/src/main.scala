@@ -10,10 +10,10 @@ object Main extends App {
   /// Return the penultimate element from a list
   def penultimate[T](list: List[T]): T = {
     list match {
-        case Nil => throw new NullPointerException
-        case head :: Nil => throw new NullPointerException
-        case head :: (body :: Nil) => return head
-        case head :: tail => return penultimate(tail)
+      case Nil                   => throw new NullPointerException
+      case head :: Nil           => throw new NullPointerException
+      case head :: (body :: Nil) => return head
+      case head :: tail          => return penultimate(tail)
     }
   }
 }

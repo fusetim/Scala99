@@ -11,8 +11,8 @@ object Main extends App {
   def lenght[T](list: List[T]): Int = {
     def acc[T](n: Int, list: List[T]): Int = {
       list match {
-        case Nil => return n
-        case head :: tl => return acc(n+1, tl)
+        case Nil        => return n
+        case head :: tl => return acc(n + 1, tl)
       }
     }
     return acc(0, list)
