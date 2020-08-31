@@ -1,26 +1,16 @@
 import mill._, scalalib._
 
-object problem01 extends ScalaModule {
+trait BaseProblem extends ScalaModule {
   def scalaVersion = "2.13.1"
 }
 
-object problem02 extends ScalaModule {
-  def scalaVersion = "2.13.1"
-}
-
-object problem03 extends ScalaModule {
-  def scalaVersion = "2.13.1"
-}
-
-object problem04 extends ScalaModule {
-  def scalaVersion = "2.13.1"
-}
-
-object problem05 extends ScalaModule {
-  def scalaVersion = "2.13.1"
-}
-
-object problem06 extends ScalaModule {
+object problem01 extends BaseProblem
+object problem02 extends BaseProblem
+object problem03 extends BaseProblem
+object problem04 extends BaseProblem
+object problem05 extends BaseProblem
+object problem06 extends BaseProblem {
   def scalaVersion = "2.13.1"
   def moduleDeps = Seq(problem05)
 }
+object problem07 extends BaseProblem
