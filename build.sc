@@ -18,3 +18,6 @@ object problem09 extends BaseProblem
 object problem10 extends BaseProblem {
   def moduleDeps = Seq(problem04, problem09)
 }
+object problem11 extends BaseProblem {
+  def moduleDeps = Seq(problem04, problem09)
+}
