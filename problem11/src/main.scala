@@ -1,30 +1,18 @@
 package fr.fusetim.scala99
 
-import fr.fusetim.scala99.Problem04
-import fr.fusetim.scala99.Problem09
+import fr.fusetim.scala99.Problem10
 
 object Problem11 extends App {
   // Some testing values:
   val list1 = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
-  val list1_encoded = List((4, 'a), 'b, (2, 'c), (2, 'a), 'd, (4, 'e))
-  assert(encode(list1) == list1_encoded)
+  val list1_encoded = List(Left((4,'a)), Right('b), Left((2,'c)), Left((2,'a)), Right('d), Left((4,'e)))
+  assert(encodeModified(list1) == list1_encoded)
 
-  /// Return the last element from a list
-  def encode[T](list: List[T]): List[Any] = {
-    val packed = Problem09.pack(list)
-    def encode_packed[T](packed: List[List[T]]): List[Any] = {
-      packed match {
-        case Nil => List.empty[Nothing]
-        case head :: tl => {
-          val len = Problem04.lenght(head)
-          val value :: _ = head
-          len match {
-            case 1 => return value :: encode_packed(tl)
-            case n => return (len, value) :: encode_packed(tl)
-          }
-        }
-      }
+  /// Encode as a run-lenght list (but only duplicates are move into (lenght, value))
+  def encodeModified[T](list: List[T]): List[Either[(Int, T), T]] = {
+    return Problem10.encode(list) map {
+      case (1, v) => Right(v)
+      case o => Left(o)
     }
-    return encode_packed(packed)
   }
 }

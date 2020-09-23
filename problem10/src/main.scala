@@ -9,7 +9,7 @@ object Problem10 extends App {
   val list1_encoded = List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e))
   assert(encode(list1) == list1_encoded)
 
-  /// Return the last element from a list
+  /// Encode as a run-lenght list 
   def encode[T](list: List[T]): List[(Int, T)] = {
     val packed = Problem09.pack(list)
     def encode_packed[T](packed: List[List[T]]): List[(Int, T)] = {
