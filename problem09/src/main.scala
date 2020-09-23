@@ -14,8 +14,9 @@ object Problem09 extends App {
   assert(pack(list1) == list1_packed)
 
   /// Return a list packing each different element in a distinct list
-  def pack(list: List[_]): List[List[_]] = {
+  def pack[T](list: List[T]): List[List[T]] = {
     list match {
+      case Nil => return List.empty[Nothing]
       case head :: Nil => return List(List(head))
       case head :: (x :: xs) if head == x => {
         val a :: b = pack(x :: xs)

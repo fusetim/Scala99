@@ -14,7 +14,7 @@ It will follow the problem list of this site http://aperiodic.net/phil/scala/s-9
 | *0_* | / | link:problem01/[Solved]* | link:problem02/[Solved]* | link:problem03/[Solved]* | link:problem04/[Solved]* | 
 link:problem05/[Solved]* | link:problem06/[Solved]* | link:problem07/[Solved]** | link:problem08/[Solved]** | link:problem09/[Solved]**
 
-| *1_* |  |  |  |  |  |  |  |  |  | 
+| *1_* | link:problem10/[Solved]* |  |  |  |  |  |  |  |  | 
 
 | *2_* |  |  |  |  |  |  |  |  |  | 
 
