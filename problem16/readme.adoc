@@ -1,0 +1,13 @@
+= S-99/P16 (**) - Drop every Nth element from a list.
+
+image::https://img.shields.io/badge/difficulty-medium-orange?style=for-the-badge[Difficulty: Medium]
+
+.Example:
+[caption=""]
+====
+```scala
+scala> drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+res0: List[Symbol] = List('a, 'b, 'd, 'e, 'g, 'h, 'j, 'k)
+```
+====
+

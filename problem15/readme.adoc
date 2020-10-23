@@ -1,0 +1,13 @@
+= S-99/P15 (**) - Duplicate the elements of a list a given number of times.
+
+image::https://img.shields.io/badge/difficulty-medium-orange?style=for-the-badge[Difficulty: Medium]
+
+.Example:
+[caption=""]
+====
+```scala
+scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
+res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+```
+====
+
