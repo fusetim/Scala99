@@ -1,0 +1,13 @@
+= S-99/P14 (*) - Duplicate the elements of a list.
+
+image::https://img.shields.io/badge/difficulty-easy-brightgreen?style=for-the-badge[Difficulty: Easy]
+
+.Example:
+[caption=""]
+====
+```scala
+scala> duplicate(List('a, 'b, 'c, 'c, 'd))
+res0: List[Symbol] = List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd)
+```
+====
+

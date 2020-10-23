@@ -23,3 +23,4 @@ object problem11 extends BaseProblem {
 }
 object problem12 extends BaseProblem
 object problem13 extends BaseProblem
+object problem14 extends BaseProblem
