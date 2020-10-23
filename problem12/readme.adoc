@@ -1,0 +1,15 @@
+= S-99/P12 (**) - Modified run-length encoding.
+
+image::https://img.shields.io/badge/difficulty-medium-orange?style=for-the-badge[Difficulty: Medium]
+
+Given a run-length code list generated as specified in problem link:../problem10/[P10], construct its uncompressed version. 
+
+.Example:
+[caption=""]
+====
+```scala
+scala> decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
+res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+```
+====
+
