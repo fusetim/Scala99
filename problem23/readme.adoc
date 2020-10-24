@@ -1,0 +1,15 @@
+= S-99/P23 (**) - Extract a given number of randomly selected elements from a list.
+
+image::https://img.shields.io/badge/difficulty-medium-orange?style=for-the-badge[Difficulty: Medium]
+
+Hint: Use the solution to problem link:../problem20[P20].
+
+.Example:
+[caption=""]
+====
+```scala
+scala> randomSelect(3, List('a, 'b, 'c, 'd, 'f, 'g, 'h))
+res0: List[Symbol] = List('e, 'd, 'a)
+```
+====
+
