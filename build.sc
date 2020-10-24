@@ -28,3 +28,5 @@ object problem15 extends BaseProblem
 object problem16 extends BaseProblem
 object problem17 extends BaseProblem
 object problem18 extends BaseProblem
+object problem19 extends BaseProblem
+object problem20 extends BaseProblem
