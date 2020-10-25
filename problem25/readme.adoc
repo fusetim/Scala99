@@ -1,0 +1,15 @@
+= S-99/P25 (*) - Generate a random permutation of the elements of a list.
+
+image::https://img.shields.io/badge/difficulty-easy-brightgreen?style=for-the-badge[Difficulty: easy]
+
+Hint: Use the solution to problem link:../problem23[P23].
+
+.Example:
+[caption=""]
+====
+```scala
+scala> randomPermute(List('a, 'b, 'c, 'd, 'e, 'f))
+res0: List[Symbol] = List('b, 'a, 'd, 'c, 'e, 'f)
+```
+====
+

@@ -38,3 +38,6 @@ object problem23 extends BaseProblem {
 object problem24 extends BaseProblem {
     def moduleDeps = Seq(problem22, problem23)
 }
+object problem25 extends BaseProblem {
+  def moduleDeps = Seq(problem23)
+}
