@@ -16,7 +16,7 @@ link:problem05/[Solved]* | link:problem06/[Solved]* | link:problem07/[Solved]** 
 
 | *1_* | link:problem10/[Solved]* | link:problem11/[Solved]* | link:problem12/[Solved]** | link:problem13/[Solved]** | link:problem14/[Solved]* |  link:problem15/[Solved]** | link:problem16/[Solved]** | link:problem17/[Solved]** | link:problem18/[Solved]** | link:problem19/[Solved]** 
 
-| *2_* | link:problem20/[Solved]* | link:problem21/[Solved]* | link:problem22/[Solved]** | link:problem23/[Solved]** | link:problem24/[Solved]* | link:problem25/[Solved]* | link:problem26/[Solved]** |  |  | 
+| *2_* | link:problem20/[Solved]* | link:problem21/[Solved]* | link:problem22/[Solved]** | link:problem23/[Solved]** | link:problem24/[Solved]* | link:problem25/[Solved]* | link:problem26/[Solved]** | link:problem27/[Solved]** |  | 
 
 | *3_* |  |  |  |  |  |  |  |  |  | 
 
