@@ -1,7 +1,5 @@
 package fr.fusetim.scala99
 
-import scala.util.Random
-
 object Problem26 extends App {
   // Some testing values:
   val list1 = List('a, 'b, 'c, 'd, 'e, 'f)
